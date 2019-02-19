@@ -1,0 +1,30 @@
+  void set_policy_name(::std::string&& value);
+  #endif
+  void set_policy_name(const char* value);
+  void set_policy_name(const char* value, size_t size);
+  ::std::string* mutable_policy_name();
+  ::std::string* release_policy_name();
+  void set_allocated_policy_name(::std::string* policy_name);
+
+  // string csp_product_name = 80;
+  void clear_csp_product_name();
+  static const int kCspProductNameFieldNumber = 80;
+  const ::std::string& csp_product_name() const;
+  void set_csp_product_name(const ::std::string& value);
+  #if LANG_CXX11
+  void set_csp_product_name(::std::string&& value);
+  #endif
+  void set_csp_product_name(const char* value);
+  void set_csp_product_name(const char* value, size_t size);
+  ::std::string* mutable_csp_product_name();
+  ::std::string* release_csp_product_name();
+  void set_allocated_csp_product_name(::std::string* csp_product_name);
+
+  // string event_name = 100;
+  void clear_event_name();
+  static const int kEventNameFieldNumber = 100;
+  const ::std::string& event_name() const;
+  void set_event_name(const ::std::string& value);
+  #if LANG_CXX11
+  void set_event_name(::std::string&& value);
+  #endif

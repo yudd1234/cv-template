@@ -1,0 +1,30 @@
+inline void CloudPolicyLog::set_enterprise_id(::google::protobuf::uint64 value) {
+  
+  enterprise_id_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.enterprise_id)
+}
+
+// uint64 user_id = 55;
+inline void CloudPolicyLog::clear_user_id() {
+  user_id_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 CloudPolicyLog::user_id() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.user_id)
+  return user_id_;
+}
+inline void CloudPolicyLog::set_user_id(::google::protobuf::uint64 value) {
+  
+  user_id_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.user_id)
+}
+
+// uint64 device_activity_id = 60;
+inline void CloudPolicyLog::clear_device_activity_id() {
+  device_activity_id_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 CloudPolicyLog::device_activity_id() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.device_activity_id)
+  return device_activity_id_;
+}
+inline void CloudPolicyLog::set_device_activity_id(::google::protobuf::uint64 value) {
+  

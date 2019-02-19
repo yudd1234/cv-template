@@ -1,0 +1,30 @@
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  return traffic_id_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* CloudPolicyLog::release_traffic_id() {
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  
+  return traffic_id_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void CloudPolicyLog::set_allocated_traffic_id(::std::string* traffic_id) {
+  if (traffic_id != NULL) {
+    
+  } else {
+    
+  }
+  traffic_id_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), traffic_id);
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+}
+
+// uint64 matched_device_id = 130;
+inline void CloudPolicyLog::clear_matched_device_id() {
+  matched_device_id_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 CloudPolicyLog::matched_device_id() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_device_id)
+  return matched_device_id_;
+}
+inline void CloudPolicyLog::set_matched_device_id(::google::protobuf::uint64 value) {
+  
+  matched_device_id_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_device_id)

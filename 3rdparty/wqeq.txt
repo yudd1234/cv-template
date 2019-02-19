@@ -1,0 +1,1239 @@
+
+  
+    
+    }
+  }
+// ===================================================================
+// -------------------------------------------------------------------
+}
+};
+    0;
+    1;
+1asd地位的阿萨德阿大岁的啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+  // accessors -------------------------------------------------------
+  action_taken_ = 0u;
+  action_taken_ = value;
+  activity_id_ = GOOGLE_ULONGLONG(0);
+  activity_id_ = value;
+  // .activity.RespDeviceActivity.NetWorkType network_id = 5;
+// .activity.RespDeviceActivity.NetWorkType network_id = 5;
+  ::activity::RespDeviceActivity_NetWorkType network_id() const;
+    a.Swap(&b);
+      bool deterministic, ::google::protobuf::uint8* target) const PROTOBUF_FINAL;
+  bool IsInitialized() const PROTOBUF_FINAL;
+  bool MergePartialFromCodedStream(
+bool RespDeviceActivity_NetWorkType_IsValid(int value);
+class CloudPolicyLog;
+class CloudPolicyLogDefaultTypeInternal;
+class CloudPolicyLog : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:com.cloudscreen.log.CloudPolicyLog) */ {
+class ReqDeviceActivity;
+class ReqDeviceActivityDefaultTypeInternal;
+class ReqDeviceActivity : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:activity.ReqDeviceActivity) */ {
+class RespDeviceActivity;
+class RespDeviceActivityDefaultTypeInternal;
+class RespDeviceActivity : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:activity.RespDeviceActivity) */ {
+    : CloudPolicyLog() {
+  CloudPolicyLog();
+// CloudPolicyLog
+  CloudPolicyLog(CloudPolicyLog&& from) noexcept
+  CloudPolicyLog(const CloudPolicyLog& from);
+               &_CloudPolicyLog_default_instance_);
+  CloudPolicyLog* New(::google::protobuf::Arena* arena) const PROTOBUF_FINAL;
+  comment_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  comment_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), comment);
+  comment_.SetNoArena(
+  comment_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  comment_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  comment_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+const ::google::protobuf::EnumDescriptor* RespDeviceActivity_NetWorkType_descriptor();
+  const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
+const int RespDeviceActivity_NetWorkType_NetWorkType_ARRAYSIZE = RespDeviceActivity_NetWorkType_NetWorkType_MAX + 1;
+const RespDeviceActivity_NetWorkType RespDeviceActivity_NetWorkType_NetWorkType_MAX = RespDeviceActivity_NetWorkType_NET_CELLULAR;
+const RespDeviceActivity_NetWorkType RespDeviceActivity_NetWorkType_NetWorkType_MIN = RespDeviceActivity_NetWorkType_NET_NO;
+  const ::std::string& comment() const;
+  const ::std::string& csp_product_name() const;
+  const ::std::string& event_name() const;
+  const ::std::string& frequency_name() const;
+  const ::std::string& matched_device_name() const;
+  const ::std::string& matched_map_name() const;
+  const ::std::string& matched_net_name() const;
+    const ::std::string& name, RespDeviceActivity_NetWorkType* value) {
+  const ::std::string& policy() const;
+  const ::std::string& policy_name() const;
+  const ::std::string& reserve_content1() const;
+  const ::std::string& reserve_content2() const;
+  const ::std::string& session_id() const;
+  const ::std::string& traffic_id() const;
+  const ::std::string& trigger_time() const;
+      CopyFrom(from);
+    CopyFrom(from);
+  csp_product_id_ = GOOGLE_ULONGLONG(0);
+  csp_product_id_ = value;
+  csp_product_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  csp_product_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), csp_product_name);
+  csp_product_name_.SetNoArena(
+  csp_product_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  csp_product_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  csp_product_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+#define PROTOBUF_cloudPolicy_2eproto__INCLUDED
+#define PROTOBUF_device_5factivity_2eproto__INCLUDED
+  delivery_type_ = 0u;
+  delivery_type_ = value;
+  device_activity_id_ = GOOGLE_ULONGLONG(0);
+  device_activity_id_ = value;
+  device_group_id_.Add(value);
+  device_group_id_.Clear();
+      device_group_id() const;
+  device_group_id_.Set(index, value);
+  device_id_ = GOOGLE_ULONGLONG(0);
+  device_id_ = value;
+    } else {
+  } else {
+  #endif
+#endif
+#endif  // __GNUC__
+#endif  // PROTOBUF_cloudPolicy_2eproto__INCLUDED
+#endif  // PROTOBUF_device_5factivity_2eproto__INCLUDED
+#endif  // !PROTOBUF_INLINE_NOT_IN_HEADERS
+  enterprise_id_ = GOOGLE_ULONGLONG(0);
+  enterprise_id_ = value;
+enum RespDeviceActivity_NetWorkType {
+#error incompatible with your Protocol Buffer headers.  Please
+#error incompatible with your Protocol Buffer headers.  Please update
+#error regenerate this file with a newer version of protoc.
+#error This file was generated by a newer version of protoc which is
+#error This file was generated by an older version of protoc which is
+#error your headers.
+  event_category_id_ = GOOGLE_ULONGLONG(0);
+  event_category_id_ = value;
+  event_id_ = GOOGLE_ULONGLONG(0);
+  event_id_ = value;
+  event_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  event_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), event_name);
+  event_name_.SetNoArena(
+  event_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  event_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  event_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+extern CloudPolicyLogDefaultTypeInternal _CloudPolicyLog_default_instance_;
+extern ReqDeviceActivityDefaultTypeInternal _ReqDeviceActivity_default_instance_;
+extern RespDeviceActivityDefaultTypeInternal _RespDeviceActivity_default_instance_;
+  frequency_id_ = GOOGLE_ULONGLONG(0);
+  frequency_id_ = value;
+  frequency_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  frequency_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), frequency_name);
+  frequency_name_.SetNoArena(
+  frequency_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  frequency_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  frequency_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  friend struct protobuf_cloudPolicy_2eproto::TableStruct;
+  friend struct protobuf_device_5factivity_2eproto::TableStruct;
+  friend void swap(CloudPolicyLog& a, CloudPolicyLog& b) {
+  friend void swap(ReqDeviceActivity& a, ReqDeviceActivity& b) {
+  friend void swap(RespDeviceActivity& a, RespDeviceActivity& b) {
+// Generated by the protocol buffer compiler.  DO NOT EDIT!
+  GOOGLE_DCHECK(value != NULL);
+  ::google::protobuf::internal::ArenaStringPtr comment_;
+  ::google::protobuf::internal::ArenaStringPtr csp_product_name_;
+  ::google::protobuf::internal::ArenaStringPtr event_name_;
+  ::google::protobuf::internal::ArenaStringPtr frequency_name_;
+  ::google::protobuf::internal::ArenaStringPtr matched_device_name_;
+  ::google::protobuf::internal::ArenaStringPtr matched_map_name_;
+  ::google::protobuf::internal::ArenaStringPtr matched_net_name_;
+  ::google::protobuf::internal::ArenaStringPtr policy_;
+  ::google::protobuf::internal::ArenaStringPtr policy_name_;
+  ::google::protobuf::internal::ArenaStringPtr reserve_content1_;
+  ::google::protobuf::internal::ArenaStringPtr reserve_content2_;
+  ::google::protobuf::internal::ArenaStringPtr session_id_;
+  ::google::protobuf::internal::ArenaStringPtr traffic_id_;
+  ::google::protobuf::internal::ArenaStringPtr trigger_time_;
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+      ::google::protobuf::io::CodedInputStream* input) PROTOBUF_FINAL;
+      ::google::protobuf::io::CodedOutputStream* output) const PROTOBUF_FINAL;
+  ::google::protobuf::Metadata GetMetadata() const PROTOBUF_FINAL;
+  ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
+  ::google::protobuf::RepeatedField< ::google::protobuf::uint32 > device_group_id_;
+  ::google::protobuf::RepeatedField< ::google::protobuf::uint32 > map_id_;
+  ::google::protobuf::uint32 action_taken_;
+  ::google::protobuf::uint32 action_taken() const;
+  ::google::protobuf::uint32 delivery_type_;
+  ::google::protobuf::uint32 delivery_type() const;
+  ::google::protobuf::uint32 device_group_id(int index) const;
+  ::google::protobuf::uint32 log_type_;
+  ::google::protobuf::uint32 log_type() const;
+  ::google::protobuf::uint32 map_id(int index) const;
+  ::google::protobuf::uint32 period_;
+  ::google::protobuf::uint32 period() const;
+  ::google::protobuf::uint32 period_unit_;
+  ::google::protobuf::uint32 period_unit() const;
+  ::google::protobuf::uint32 severity_;
+  ::google::protobuf::uint32 severity() const;
+  ::google::protobuf::uint32 threshold_;
+  ::google::protobuf::uint32 threshold() const;
+  ::google::protobuf::uint64 activity_id_;
+  ::google::protobuf::uint64 activity_id() const;
+  ::google::protobuf::uint64 csp_product_id_;
+  ::google::protobuf::uint64 csp_product_id() const;
+  ::google::protobuf::uint64 device_activity_id_;
+  ::google::protobuf::uint64 device_activity_id() const;
+  ::google::protobuf::uint64 device_id_;
+  ::google::protobuf::uint64 device_id() const;
+  ::google::protobuf::uint64 enterprise_id_;
+  ::google::protobuf::uint64 enterprise_id() const;
+  ::google::protobuf::uint64 event_category_id_;
+  ::google::protobuf::uint64 event_category_id() const;
+  ::google::protobuf::uint64 event_id_;
+  ::google::protobuf::uint64 event_id() const;
+  ::google::protobuf::uint64 frequency_id_;
+  ::google::protobuf::uint64 frequency_id() const;
+  ::google::protobuf::uint64 matched_device_id_;
+  ::google::protobuf::uint64 matched_device_id() const;
+  ::google::protobuf::uint64 matched_map_id_;
+  ::google::protobuf::uint64 matched_map_id() const;
+  ::google::protobuf::uint64 matched_net_id_;
+  ::google::protobuf::uint64 matched_net_id() const;
+  ::google::protobuf::uint64 matched_policy_id_;
+  ::google::protobuf::uint64 matched_policy_id() const;
+  ::google::protobuf::uint64 reserve_id1_;
+  ::google::protobuf::uint64 reserve_id1() const;
+  ::google::protobuf::uint64 reserve_id2_;
+  ::google::protobuf::uint64 reserve_id2() const;
+  ::google::protobuf::uint64 user_id_;
+  ::google::protobuf::uint64 user_id() const;
+  ::google::protobuf::uint8* InternalSerializeWithCachedSizesToArray(
+#if 3004000 < GOOGLE_PROTOBUF_MIN_PROTOC_VERSION
+  if (comment != NULL) {
+  if (csp_product_name != NULL) {
+#ifdef __GNUC__
+  if (event_name != NULL) {
+  if (frequency_name != NULL) {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+#if GOOGLE_PROTOBUF_VERSION < 3004000
+  #if LANG_CXX11
+#if LANG_CXX11
+  if (matched_device_name != NULL) {
+  if (matched_map_name != NULL) {
+  if (matched_net_name != NULL) {
+#ifndef PROTOBUF_cloudPolicy_2eproto__INCLUDED
+#ifndef PROTOBUF_device_5factivity_2eproto__INCLUDED
+  if (policy_name != NULL) {
+  if (policy != NULL) {
+#if !PROTOBUF_INLINE_NOT_IN_HEADERS
+  if (reserve_content1 != NULL) {
+  if (reserve_content2 != NULL) {
+  if (session_id != NULL) {
+      if (this != &from) InternalSwap(&from);
+  if (traffic_id != NULL) {
+  if (trigger_time != NULL) {
+  // implements Message ----------------------------------------------
+#include <google/protobuf/arena.h>
+#include <google/protobuf/arenastring.h>
+#include <google/protobuf/extension_set.h>  // IWYU pragma: export
+#include <google/protobuf/generated_enum_reflection.h>
+#include <google/protobuf/generated_message_table_driven.h>
+#include <google/protobuf/generated_message_util.h>
+#include <google/protobuf/io/coded_stream.h>
+#include <google/protobuf/message.h>
+#include <google/protobuf/metadata.h>
+#include <google/protobuf/repeated_field.h>  // IWYU pragma: export
+#include <google/protobuf/stubs/common.h>
+#include <google/protobuf/unknown_field_set.h>
+#include <string>
+inline ::activity::RespDeviceActivity_NetWorkType RespDeviceActivity::network_id() const {
+inline bool RespDeviceActivity_NetWorkType_Parse(
+  inline CloudPolicyLog* New() const PROTOBUF_FINAL { return New(NULL); }
+  inline CloudPolicyLog& operator=(CloudPolicyLog&& from) noexcept {
+  inline CloudPolicyLog& operator=(const CloudPolicyLog& from) {
+inline const EnumDescriptor* GetEnumDescriptor< ::activity::RespDeviceActivity_NetWorkType>() {
+inline const ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >&
+inline const ::std::string& CloudPolicyLog::comment() const {
+inline const ::std::string& CloudPolicyLog::csp_product_name() const {
+inline const ::std::string& CloudPolicyLog::event_name() const {
+inline const ::std::string& CloudPolicyLog::frequency_name() const {
+inline const ::std::string& CloudPolicyLog::matched_device_name() const {
+inline const ::std::string& CloudPolicyLog::matched_map_name() const {
+inline const ::std::string& CloudPolicyLog::matched_net_name() const {
+inline const ::std::string& CloudPolicyLog::policy() const {
+inline const ::std::string& CloudPolicyLog::policy_name() const {
+inline const ::std::string& CloudPolicyLog::reserve_content1() const {
+inline const ::std::string& CloudPolicyLog::reserve_content2() const {
+inline const ::std::string& CloudPolicyLog::session_id() const {
+inline const ::std::string& CloudPolicyLog::traffic_id() const {
+inline const ::std::string& CloudPolicyLog::trigger_time() const {
+inline const ::std::string& RespDeviceActivity_NetWorkType_Name(RespDeviceActivity_NetWorkType value) {
+  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {
+inline ::google::protobuf::RepeatedField< ::google::protobuf::uint32 >*
+inline ::google::protobuf::uint32 CloudPolicyLog::action_taken() const {
+inline ::google::protobuf::uint32 CloudPolicyLog::delivery_type() const {
+inline ::google::protobuf::uint32 CloudPolicyLog::log_type() const {
+inline ::google::protobuf::uint32 CloudPolicyLog::period() const {
+inline ::google::protobuf::uint32 CloudPolicyLog::period_unit() const {
+inline ::google::protobuf::uint32 CloudPolicyLog::severity() const {
+inline ::google::protobuf::uint32 CloudPolicyLog::threshold() const {
+inline ::google::protobuf::uint32 RespDeviceActivity::device_group_id(int index) const {
+inline ::google::protobuf::uint32 RespDeviceActivity::map_id(int index) const {
+inline ::google::protobuf::uint64 CloudPolicyLog::csp_product_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::device_activity_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::enterprise_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::event_category_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::event_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::frequency_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::matched_device_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::matched_map_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::matched_net_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::matched_policy_id() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::reserve_id1() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::reserve_id2() const {
+inline ::google::protobuf::uint64 CloudPolicyLog::user_id() const {
+inline ::google::protobuf::uint64 ReqDeviceActivity::activity_id() const {
+inline ::google::protobuf::uint64 RespDeviceActivity::activity_id() const {
+inline ::google::protobuf::uint64 RespDeviceActivity::device_id() const {
+inline ::google::protobuf::uint64 RespDeviceActivity::enterprise_id() const {
+inline ::google::protobuf::uint64 RespDeviceActivity::user_id() const {
+inline int RespDeviceActivity::device_group_id_size() const {
+inline int RespDeviceActivity::map_id_size() const {
+  inline ReqDeviceActivity* New() const PROTOBUF_FINAL { return New(NULL); }
+  inline ReqDeviceActivity& operator=(const ReqDeviceActivity& from) {
+  inline ReqDeviceActivity& operator=(ReqDeviceActivity&& from) noexcept {
+  inline RespDeviceActivity* New() const PROTOBUF_FINAL { return New(NULL); }
+  inline RespDeviceActivity& operator=(const RespDeviceActivity& from) {
+  inline RespDeviceActivity& operator=(RespDeviceActivity&& from) noexcept {
+inline ::std::string* CloudPolicyLog::mutable_comment() {
+inline ::std::string* CloudPolicyLog::mutable_csp_product_name() {
+inline ::std::string* CloudPolicyLog::mutable_event_name() {
+inline ::std::string* CloudPolicyLog::mutable_frequency_name() {
+inline ::std::string* CloudPolicyLog::mutable_matched_device_name() {
+inline ::std::string* CloudPolicyLog::mutable_matched_map_name() {
+inline ::std::string* CloudPolicyLog::mutable_matched_net_name() {
+inline ::std::string* CloudPolicyLog::mutable_policy() {
+inline ::std::string* CloudPolicyLog::mutable_policy_name() {
+inline ::std::string* CloudPolicyLog::mutable_reserve_content1() {
+inline ::std::string* CloudPolicyLog::mutable_reserve_content2() {
+inline ::std::string* CloudPolicyLog::mutable_session_id() {
+inline ::std::string* CloudPolicyLog::mutable_traffic_id() {
+inline ::std::string* CloudPolicyLog::mutable_trigger_time() {
+inline ::std::string* CloudPolicyLog::release_comment() {
+inline ::std::string* CloudPolicyLog::release_csp_product_name() {
+inline ::std::string* CloudPolicyLog::release_event_name() {
+inline ::std::string* CloudPolicyLog::release_frequency_name() {
+inline ::std::string* CloudPolicyLog::release_matched_device_name() {
+inline ::std::string* CloudPolicyLog::release_matched_map_name() {
+inline ::std::string* CloudPolicyLog::release_matched_net_name() {
+inline ::std::string* CloudPolicyLog::release_policy() {
+inline ::std::string* CloudPolicyLog::release_policy_name() {
+inline ::std::string* CloudPolicyLog::release_reserve_content1() {
+inline ::std::string* CloudPolicyLog::release_reserve_content2() {
+inline ::std::string* CloudPolicyLog::release_session_id() {
+inline ::std::string* CloudPolicyLog::release_traffic_id() {
+inline ::std::string* CloudPolicyLog::release_trigger_time() {
+inline void CloudPolicyLog::clear_action_taken() {
+inline void CloudPolicyLog::clear_comment() {
+inline void CloudPolicyLog::clear_csp_product_id() {
+inline void CloudPolicyLog::clear_csp_product_name() {
+inline void CloudPolicyLog::clear_delivery_type() {
+inline void CloudPolicyLog::clear_device_activity_id() {
+inline void CloudPolicyLog::clear_enterprise_id() {
+inline void CloudPolicyLog::clear_event_category_id() {
+inline void CloudPolicyLog::clear_event_id() {
+inline void CloudPolicyLog::clear_event_name() {
+inline void CloudPolicyLog::clear_frequency_id() {
+inline void CloudPolicyLog::clear_frequency_name() {
+inline void CloudPolicyLog::clear_log_type() {
+inline void CloudPolicyLog::clear_matched_device_id() {
+inline void CloudPolicyLog::clear_matched_device_name() {
+inline void CloudPolicyLog::clear_matched_map_id() {
+inline void CloudPolicyLog::clear_matched_map_name() {
+inline void CloudPolicyLog::clear_matched_net_id() {
+inline void CloudPolicyLog::clear_matched_net_name() {
+inline void CloudPolicyLog::clear_matched_policy_id() {
+inline void CloudPolicyLog::clear_period() {
+inline void CloudPolicyLog::clear_period_unit() {
+inline void CloudPolicyLog::clear_policy() {
+inline void CloudPolicyLog::clear_policy_name() {
+inline void CloudPolicyLog::clear_reserve_content1() {
+inline void CloudPolicyLog::clear_reserve_content2() {
+inline void CloudPolicyLog::clear_reserve_id1() {
+inline void CloudPolicyLog::clear_reserve_id2() {
+inline void CloudPolicyLog::clear_session_id() {
+inline void CloudPolicyLog::clear_severity() {
+inline void CloudPolicyLog::clear_threshold() {
+inline void CloudPolicyLog::clear_traffic_id() {
+inline void CloudPolicyLog::clear_trigger_time() {
+inline void CloudPolicyLog::clear_user_id() {
+inline void CloudPolicyLog::set_action_taken(::google::protobuf::uint32 value) {
+inline void CloudPolicyLog::set_allocated_comment(::std::string* comment) {
+inline void CloudPolicyLog::set_allocated_csp_product_name(::std::string* csp_product_name) {
+inline void CloudPolicyLog::set_allocated_event_name(::std::string* event_name) {
+inline void CloudPolicyLog::set_allocated_frequency_name(::std::string* frequency_name) {
+inline void CloudPolicyLog::set_allocated_matched_device_name(::std::string* matched_device_name) {
+inline void CloudPolicyLog::set_allocated_matched_map_name(::std::string* matched_map_name) {
+inline void CloudPolicyLog::set_allocated_matched_net_name(::std::string* matched_net_name) {
+inline void CloudPolicyLog::set_allocated_policy_name(::std::string* policy_name) {
+inline void CloudPolicyLog::set_allocated_policy(::std::string* policy) {
+inline void CloudPolicyLog::set_allocated_reserve_content1(::std::string* reserve_content1) {
+inline void CloudPolicyLog::set_allocated_reserve_content2(::std::string* reserve_content2) {
+inline void CloudPolicyLog::set_allocated_session_id(::std::string* session_id) {
+inline void CloudPolicyLog::set_allocated_traffic_id(::std::string* traffic_id) {
+inline void CloudPolicyLog::set_allocated_trigger_time(::std::string* trigger_time) {
+inline void CloudPolicyLog::set_comment(const char* value) {
+inline void CloudPolicyLog::set_comment(const char* value, size_t size) {
+inline void CloudPolicyLog::set_comment(const ::std::string& value) {
+inline void CloudPolicyLog::set_comment(::std::string&& value) {
+inline void CloudPolicyLog::set_csp_product_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_csp_product_name(const char* value) {
+inline void CloudPolicyLog::set_csp_product_name(const char* value, size_t size) {
+inline void CloudPolicyLog::set_csp_product_name(const ::std::string& value) {
+inline void CloudPolicyLog::set_csp_product_name(::std::string&& value) {
+inline void CloudPolicyLog::set_delivery_type(::google::protobuf::uint32 value) {
+inline void CloudPolicyLog::set_device_activity_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_enterprise_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_event_category_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_event_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_event_name(const char* value) {
+inline void CloudPolicyLog::set_event_name(const char* value, size_t size) {
+inline void CloudPolicyLog::set_event_name(const ::std::string& value) {
+inline void CloudPolicyLog::set_event_name(::std::string&& value) {
+inline void CloudPolicyLog::set_frequency_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_frequency_name(const char* value) {
+inline void CloudPolicyLog::set_frequency_name(const char* value, size_t size) {
+inline void CloudPolicyLog::set_frequency_name(const ::std::string& value) {
+inline void CloudPolicyLog::set_frequency_name(::std::string&& value) {
+inline void CloudPolicyLog::set_log_type(::google::protobuf::uint32 value) {
+inline void CloudPolicyLog::set_matched_device_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_matched_device_name(const char* value) {
+inline void CloudPolicyLog::set_matched_device_name(const char* value, size_t size) {
+inline void CloudPolicyLog::set_matched_device_name(const ::std::string& value) {
+inline void CloudPolicyLog::set_matched_device_name(::std::string&& value) {
+inline void CloudPolicyLog::set_matched_map_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_matched_map_name(const char* value) {
+inline void CloudPolicyLog::set_matched_map_name(const char* value, size_t size) {
+inline void CloudPolicyLog::set_matched_map_name(const ::std::string& value) {
+inline void CloudPolicyLog::set_matched_map_name(::std::string&& value) {
+inline void CloudPolicyLog::set_matched_net_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_matched_net_name(const char* value) {
+inline void CloudPolicyLog::set_matched_net_name(const char* value, size_t size) {
+inline void CloudPolicyLog::set_matched_net_name(const ::std::string& value) {
+inline void CloudPolicyLog::set_matched_net_name(::std::string&& value) {
+inline void CloudPolicyLog::set_matched_policy_id(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_period(::google::protobuf::uint32 value) {
+inline void CloudPolicyLog::set_period_unit(::google::protobuf::uint32 value) {
+inline void CloudPolicyLog::set_policy(const char* value) {
+inline void CloudPolicyLog::set_policy(const char* value, size_t size) {
+inline void CloudPolicyLog::set_policy(const ::std::string& value) {
+inline void CloudPolicyLog::set_policy_name(const char* value) {
+inline void CloudPolicyLog::set_policy_name(const char* value, size_t size) {
+inline void CloudPolicyLog::set_policy_name(const ::std::string& value) {
+inline void CloudPolicyLog::set_policy_name(::std::string&& value) {
+inline void CloudPolicyLog::set_policy(::std::string&& value) {
+inline void CloudPolicyLog::set_reserve_content1(const char* value) {
+inline void CloudPolicyLog::set_reserve_content1(const char* value, size_t size) {
+inline void CloudPolicyLog::set_reserve_content1(const ::std::string& value) {
+inline void CloudPolicyLog::set_reserve_content1(::std::string&& value) {
+inline void CloudPolicyLog::set_reserve_content2(const char* value) {
+inline void CloudPolicyLog::set_reserve_content2(const char* value, size_t size) {
+inline void CloudPolicyLog::set_reserve_content2(const ::std::string& value) {
+inline void CloudPolicyLog::set_reserve_content2(::std::string&& value) {
+inline void CloudPolicyLog::set_reserve_id1(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_reserve_id2(::google::protobuf::uint64 value) {
+inline void CloudPolicyLog::set_session_id(const char* value) {
+inline void CloudPolicyLog::set_session_id(const char* value, size_t size) {
+inline void CloudPolicyLog::set_session_id(const ::std::string& value) {
+inline void CloudPolicyLog::set_session_id(::std::string&& value) {
+inline void CloudPolicyLog::set_severity(::google::protobuf::uint32 value) {
+inline void CloudPolicyLog::set_threshold(::google::protobuf::uint32 value) {
+inline void CloudPolicyLog::set_traffic_id(const char* value) {
+inline void CloudPolicyLog::set_traffic_id(const char* value, size_t size) {
+inline void CloudPolicyLog::set_traffic_id(const ::std::string& value) {
+inline void CloudPolicyLog::set_traffic_id(::std::string&& value) {
+inline void CloudPolicyLog::set_trigger_time(const char* value) {
+inline void CloudPolicyLog::set_trigger_time(const char* value, size_t size) {
+inline void CloudPolicyLog::set_trigger_time(const ::std::string& value) {
+inline void CloudPolicyLog::set_trigger_time(::std::string&& value) {
+inline void CloudPolicyLog::set_user_id(::google::protobuf::uint64 value) {
+  inline void* MaybeArenaPtr() const {
+inline void ReqDeviceActivity::clear_activity_id() {
+inline void ReqDeviceActivity::set_activity_id(::google::protobuf::uint64 value) {
+inline void RespDeviceActivity::add_device_group_id(::google::protobuf::uint32 value) {
+inline void RespDeviceActivity::add_map_id(::google::protobuf::uint32 value) {
+inline void RespDeviceActivity::clear_activity_id() {
+inline void RespDeviceActivity::clear_device_group_id() {
+inline void RespDeviceActivity::clear_device_id() {
+inline void RespDeviceActivity::clear_enterprise_id() {
+inline void RespDeviceActivity::clear_map_id() {
+inline void RespDeviceActivity::clear_network_id() {
+inline void RespDeviceActivity::clear_user_id() {
+inline void RespDeviceActivity::set_activity_id(::google::protobuf::uint64 value) {
+inline void RespDeviceActivity::set_device_group_id(int index, ::google::protobuf::uint32 value) {
+inline void RespDeviceActivity::set_device_id(::google::protobuf::uint64 value) {
+inline void RespDeviceActivity::set_enterprise_id(::google::protobuf::uint64 value) {
+inline void RespDeviceActivity::set_map_id(int index, ::google::protobuf::uint32 value) {
+inline void RespDeviceActivity::set_network_id(::activity::RespDeviceActivity_NetWorkType value) {
+inline void RespDeviceActivity::set_user_id(::google::protobuf::uint64 value) {
+  int device_group_id_size() const;
+// Internal implementation detail -- do not call these.
+  int GetCachedSize() const PROTOBUF_FINAL { return _cached_size_; }
+  int map_id_size() const;
+  int network_id_;
+  log_type_ = 0u;
+  log_type_ = value;
+  map_id_.Add(value);
+  map_id_.Clear();
+      map_id() const;
+  map_id_.Set(index, value);
+  matched_device_id_ = GOOGLE_ULONGLONG(0);
+  matched_device_id_ = value;
+  matched_device_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  matched_device_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), matched_device_name);
+  matched_device_name_.SetNoArena(
+  matched_device_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  matched_device_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  matched_device_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  matched_map_id_ = GOOGLE_ULONGLONG(0);
+  matched_map_id_ = value;
+  matched_map_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  matched_map_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), matched_map_name);
+  matched_map_name_.SetNoArena(
+  matched_map_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  matched_map_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  matched_map_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  matched_net_id_ = GOOGLE_ULONGLONG(0);
+  matched_net_id_ = value;
+  matched_net_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  matched_net_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), matched_net_name);
+  matched_net_name_.SetNoArena(
+  matched_net_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  matched_net_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  matched_net_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  matched_policy_id_ = GOOGLE_ULONGLONG(0);
+  matched_policy_id_ = value;
+      mutable_device_group_id();
+  mutable int _cached_size_;
+  mutable int _device_group_id_cached_byte_size_;
+  mutable int _map_id_cached_byte_size_;
+      mutable_map_id();
+}  // namespace activity
+namespace activity {
+}  // namespace cloudscreen
+namespace cloudscreen {
+}  // namespace com
+namespace com {
+}  // namespace google
+namespace google {
+}  // namespace log
+namespace log {
+}  // namespace protobuf
+namespace protobuf {
+}  // namespace protobuf_cloudPolicy_2eproto
+namespace protobuf_cloudPolicy_2eproto {
+}  // namespace protobuf_device_5factivity_2eproto
+namespace protobuf_device_5factivity_2eproto {
+  // nested types ----------------------------------------------------
+  network_id_ = 0;
+  network_id_ = value;
+  NetWorkType_descriptor() {
+      NetWorkType* value) {
+  period_ = 0u;
+  period_unit_ = 0u;
+  period_unit_ = value;
+  period_ = value;
+  policy_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  policy_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  policy_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), policy_name);
+  policy_name_.SetNoArena(
+  policy_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  policy_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  policy_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  policy_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), policy);
+  policy_.SetNoArena(
+  policy_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  policy_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  policy_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  #pragma GCC diagnostic ignored "-Wstrict-aliasing"
+  #pragma GCC diagnostic pop
+  #pragma GCC diagnostic push
+  private:
+ private:
+  // @@protoc_insertion_point(class_scope:activity.ReqDeviceActivity)
+  // @@protoc_insertion_point(class_scope:activity.RespDeviceActivity)
+  // @@protoc_insertion_point(class_scope:com.cloudscreen.log.CloudPolicyLog)
+  // @@protoc_insertion_point(field_add:activity.RespDeviceActivity.device_group_id)
+  // @@protoc_insertion_point(field_add:activity.RespDeviceActivity.map_id)
+  // @@protoc_insertion_point(field_get:activity.ReqDeviceActivity.activity_id)
+  // @@protoc_insertion_point(field_get:activity.RespDeviceActivity.activity_id)
+  // @@protoc_insertion_point(field_get:activity.RespDeviceActivity.device_group_id)
+  // @@protoc_insertion_point(field_get:activity.RespDeviceActivity.device_id)
+  // @@protoc_insertion_point(field_get:activity.RespDeviceActivity.enterprise_id)
+  // @@protoc_insertion_point(field_get:activity.RespDeviceActivity.map_id)
+  // @@protoc_insertion_point(field_get:activity.RespDeviceActivity.network_id)
+  // @@protoc_insertion_point(field_get:activity.RespDeviceActivity.user_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.action_taken)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.comment)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.csp_product_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.delivery_type)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.device_activity_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.enterprise_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.event_category_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.event_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.event_name)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.frequency_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.log_type)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_device_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_device_name)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_map_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_net_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_policy_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.period)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.period_unit)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.policy)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.policy_name)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.reserve_id1)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.reserve_id2)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.session_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.severity)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.threshold)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.trigger_time)
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.user_id)
+  // @@protoc_insertion_point(field_list:activity.RespDeviceActivity.device_group_id)
+  // @@protoc_insertion_point(field_list:activity.RespDeviceActivity.map_id)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.comment)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.event_name)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.matched_device_name)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.policy)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.policy_name)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.session_id)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.trigger_time)
+  // @@protoc_insertion_point(field_mutable_list:activity.RespDeviceActivity.device_group_id)
+  // @@protoc_insertion_point(field_mutable_list:activity.RespDeviceActivity.map_id)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.comment)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.event_name)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.matched_device_name)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.policy)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.policy_name)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.session_id)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.trigger_time)
+  // @@protoc_insertion_point(field_set:activity.ReqDeviceActivity.activity_id)
+  // @@protoc_insertion_point(field_set:activity.RespDeviceActivity.activity_id)
+  // @@protoc_insertion_point(field_set:activity.RespDeviceActivity.device_group_id)
+  // @@protoc_insertion_point(field_set:activity.RespDeviceActivity.device_id)
+  // @@protoc_insertion_point(field_set:activity.RespDeviceActivity.enterprise_id)
+  // @@protoc_insertion_point(field_set:activity.RespDeviceActivity.map_id)
+  // @@protoc_insertion_point(field_set:activity.RespDeviceActivity.network_id)
+  // @@protoc_insertion_point(field_set:activity.RespDeviceActivity.user_id)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.comment)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.event_name)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.matched_device_name)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.policy)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.policy_name)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.session_id)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.trigger_time)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.comment)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.event_name)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.matched_device_name)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.policy)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.policy_name)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.session_id)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.trigger_time)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.action_taken)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.comment)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.csp_product_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.delivery_type)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.device_activity_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.enterprise_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.event_category_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.event_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.event_name)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.frequency_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.log_type)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_device_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_device_name)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_map_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_net_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_policy_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.period)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.period_unit)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.policy)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.policy_name)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.reserve_id1)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.reserve_id2)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.session_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.severity)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.threshold)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.trigger_time)
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.user_id)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.comment)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.event_name)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.matched_device_name)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.policy)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.policy_name)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.session_id)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.trigger_time)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.comment)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.event_name)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.matched_device_name)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.policy)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.policy_name)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.session_id)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.traffic_id)
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.trigger_time)
+// @@protoc_insertion_point(global_scope)
+// @@protoc_insertion_point(includes)
+// @@protoc_insertion_point(namespace_scope)
+  public:
+ public:
+  // repeated uint32 device_group_id = 7;
+// repeated uint32 device_group_id = 7;
+  // repeated uint32 map_id = 4;
+// repeated uint32 map_id = 4;
+    : ReqDeviceActivity() {
+  ReqDeviceActivity();
+// ReqDeviceActivity
+  ReqDeviceActivity(const ReqDeviceActivity& from);
+               &_ReqDeviceActivity_default_instance_);
+  ReqDeviceActivity* New(::google::protobuf::Arena* arena) const PROTOBUF_FINAL;
+  ReqDeviceActivity(ReqDeviceActivity&& from) noexcept
+  reserve_content1_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  reserve_content1_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), reserve_content1);
+  reserve_content1_.SetNoArena(
+  reserve_content1_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  reserve_content1_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  reserve_content1_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  reserve_content2_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  reserve_content2_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), reserve_content2);
+  reserve_content2_.SetNoArena(
+  reserve_content2_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  reserve_content2_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  reserve_content2_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  reserve_id1_ = GOOGLE_ULONGLONG(0);
+  reserve_id1_ = value;
+  reserve_id2_ = GOOGLE_ULONGLONG(0);
+  reserve_id2_ = value;
+    : RespDeviceActivity() {
+  RespDeviceActivity();
+// RespDeviceActivity
+  RespDeviceActivity(const RespDeviceActivity& from);
+               &_RespDeviceActivity_default_instance_);
+RespDeviceActivity::device_group_id() const {
+RespDeviceActivity::map_id() const {
+RespDeviceActivity::mutable_device_group_id() {
+RespDeviceActivity::mutable_map_id() {
+    RespDeviceActivity_NetWorkType_descriptor(), name, value);
+    RespDeviceActivity_NetWorkType_descriptor(), value);
+    RespDeviceActivity_NetWorkType_NET_CELLULAR;
+  RespDeviceActivity_NetWorkType_NET_CELLULAR = 2,
+    RespDeviceActivity_NetWorkType_NET_NO;
+  RespDeviceActivity_NetWorkType_NET_NO = 0,
+    RespDeviceActivity_NetWorkType_NET_WIFI;
+  RespDeviceActivity_NetWorkType_NET_WIFI = 1,
+    RespDeviceActivity_NetWorkType_NetWorkType_ARRAYSIZE;
+    RespDeviceActivity_NetWorkType_NetWorkType_MAX;
+    RespDeviceActivity_NetWorkType_NetWorkType_MIN;
+  RespDeviceActivity_NetWorkType_RespDeviceActivity_NetWorkType_INT_MAX_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32max
+  RespDeviceActivity_NetWorkType_RespDeviceActivity_NetWorkType_INT_MIN_SENTINEL_DO_NOT_USE_ = ::google::protobuf::kint32min,
+  RespDeviceActivity* New(::google::protobuf::Arena* arena) const PROTOBUF_FINAL;
+  RespDeviceActivity(RespDeviceActivity&& from) noexcept
+  return action_taken_;
+  return activity_id_;
+  return ::activity::RespDeviceActivity_NetWorkType_descriptor();
+  return comment_.GetNoArena();
+  return comment_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return comment_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return csp_product_id_;
+  return csp_product_name_.GetNoArena();
+  return csp_product_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return csp_product_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return delivery_type_;
+  return device_activity_id_;
+  return &device_group_id_;
+  return device_group_id_;
+  return device_group_id_.Get(index);
+  return device_group_id_.size();
+  return device_id_;
+  return enterprise_id_;
+  return event_category_id_;
+  return event_id_;
+  return event_name_.GetNoArena();
+  return event_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return event_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return frequency_id_;
+  return frequency_name_.GetNoArena();
+  return frequency_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return frequency_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return ::google::protobuf::internal::NameOfEnum(
+  return ::google::protobuf::internal::ParseNamedEnum<RespDeviceActivity_NetWorkType>(
+  return log_type_;
+  return &map_id_;
+  return map_id_;
+  return map_id_.Get(index);
+  return map_id_.size();
+  return matched_device_id_;
+  return matched_device_name_.GetNoArena();
+  return matched_device_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return matched_device_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return matched_map_id_;
+  return matched_map_name_.GetNoArena();
+  return matched_map_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return matched_map_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return matched_net_id_;
+  return matched_net_name_.GetNoArena();
+  return matched_net_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return matched_net_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return matched_policy_id_;
+    return NULL;
+  return period_;
+  return period_unit_;
+  return policy_.GetNoArena();
+  return policy_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return policy_name_.GetNoArena();
+  return policy_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return policy_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return policy_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+    return reinterpret_cast<const CloudPolicyLog*>(
+    return reinterpret_cast<const ReqDeviceActivity*>(
+    return reinterpret_cast<const RespDeviceActivity*>(
+  return reserve_content1_.GetNoArena();
+  return reserve_content1_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return reserve_content1_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return reserve_content2_.GetNoArena();
+  return reserve_content2_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return reserve_content2_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return reserve_id1_;
+  return reserve_id2_;
+    return RespDeviceActivity_NetWorkType_descriptor();
+    return RespDeviceActivity_NetWorkType_IsValid(value);
+    return RespDeviceActivity_NetWorkType_Name(value);
+    return RespDeviceActivity_NetWorkType_Parse(name, value);
+  return session_id_.GetNoArena();
+  return session_id_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return session_id_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return severity_;
+  return static_cast< ::activity::RespDeviceActivity_NetWorkType >(network_id_);
+    return *this;
+  return threshold_;
+  return traffic_id_.GetNoArena();
+  return traffic_id_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return traffic_id_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return trigger_time_.GetNoArena();
+  return trigger_time_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return trigger_time_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  return user_id_;
+  session_id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  session_id_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), session_id);
+  session_id_.SetNoArena(
+  session_id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  session_id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  session_id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  severity_ = 0u;
+  severity_ = value;
+  size_t ByteSizeLong() const PROTOBUF_FINAL;
+// source: cloudPolicy.proto
+// source: device_activity.proto
+  static const CloudPolicyLog& default_instance();
+  static const ::google::protobuf::Descriptor* descriptor();
+  static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
+  static const ::google::protobuf::internal::FieldMetadata field_metadata[];
+  static const ::google::protobuf::internal::ParseTableField entries[];
+  static const ::google::protobuf::internal::ParseTable schema[];
+  static const ::google::protobuf::internal::SerializationTable serialization_table[];
+  static const ::google::protobuf::uint32 offsets[];
+  static const int kActionTakenFieldNumber = 210;
+  static const int kActivityIdFieldNumber = 1;
+  static const int kActivityIdFieldNumber = 6;
+  static const int kCommentFieldNumber = 220;
+  static const int kCspProductIdFieldNumber = 70;
+  static const int kCspProductNameFieldNumber = 80;
+  static const int kDeliveryTypeFieldNumber = 40;
+  static const int kDeviceActivityIdFieldNumber = 60;
+  static const int kDeviceGroupIdFieldNumber = 7;
+  static const int kDeviceIdFieldNumber = 3;
+  static const int kEnterpriseIdFieldNumber = 2;
+  static const int kEnterpriseIdFieldNumber = 52;
+  static const int kEventCategoryIdFieldNumber = 91;
+  static const int kEventIdFieldNumber = 90;
+  static const int kEventNameFieldNumber = 100;
+  static const int kFrequencyIdFieldNumber = 182;
+  static const int kFrequencyNameFieldNumber = 183;
+  static const int kLogTypeFieldNumber = 30;
+  static const int kMapIdFieldNumber = 4;
+  static const int kMatchedDeviceIdFieldNumber = 130;
+  static const int kMatchedDeviceNameFieldNumber = 140;
+  static const int kMatchedMapIdFieldNumber = 150;
+  static const int kMatchedMapNameFieldNumber = 160;
+  static const int kMatchedNetIdFieldNumber = 170;
+  static const int kMatchedNetNameFieldNumber = 180;
+  static const int kMatchedPolicyIdFieldNumber = 10;
+  static const int kNetworkIdFieldNumber = 5;
+  static const int kPeriodFieldNumber = 187;
+  static const int kPeriodUnitFieldNumber = 189;
+  static const int kPolicyFieldNumber = 190;
+  static const int kPolicyNameFieldNumber = 20;
+  static const int kReserveContent1FieldNumber = 240;
+  static const int kReserveContent2FieldNumber = 260;
+  static const int kReserveId1FieldNumber = 230;
+  static const int kReserveId2FieldNumber = 250;
+  static const int kSessionIdFieldNumber = 110;
+  static const int kSeverityFieldNumber = 50;
+  static const int kThresholdFieldNumber = 185;
+  static const int kTrafficIdFieldNumber = 120;
+  static const int kTriggerTimeFieldNumber = 200;
+  static const int kUserIdFieldNumber = 1;
+  static const int kUserIdFieldNumber = 55;
+  static const int NetWorkType_ARRAYSIZE =
+  static const NetWorkType NET_CELLULAR =
+  static const NetWorkType NET_NO =
+  static const NetWorkType NET_WIFI =
+  static const NetWorkType NetWorkType_MAX =
+  static const NetWorkType NetWorkType_MIN =
+  static const ReqDeviceActivity& default_instance();
+  static const RespDeviceActivity& default_instance();
+  static inline bool NetWorkType_IsValid(int value) {
+  static inline bool NetWorkType_Parse(const ::std::string& name,
+  static inline const CloudPolicyLog* internal_default_instance() {
+  static inline const ::google::protobuf::EnumDescriptor*
+  static inline const ReqDeviceActivity* internal_default_instance() {
+  static inline const RespDeviceActivity* internal_default_instance() {
+  static inline const ::std::string& NetWorkType_Name(NetWorkType value) {
+  static PROTOBUF_CONSTEXPR int const kIndexInFileMessages =
+  static void InitDefaultsImpl();
+  ::std::string* mutable_comment();
+  ::std::string* mutable_csp_product_name();
+  ::std::string* mutable_event_name();
+  ::std::string* mutable_frequency_name();
+  ::std::string* mutable_matched_device_name();
+  ::std::string* mutable_matched_map_name();
+  ::std::string* mutable_matched_net_name();
+  ::std::string* mutable_policy();
+  ::std::string* mutable_policy_name();
+  ::std::string* mutable_reserve_content1();
+  ::std::string* mutable_reserve_content2();
+  ::std::string* mutable_session_id();
+  ::std::string* mutable_traffic_id();
+  ::std::string* mutable_trigger_time();
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  ::std::string* release_comment();
+  ::std::string* release_csp_product_name();
+  ::std::string* release_event_name();
+  ::std::string* release_frequency_name();
+  ::std::string* release_matched_device_name();
+  ::std::string* release_matched_map_name();
+  ::std::string* release_matched_net_name();
+  ::std::string* release_policy();
+  ::std::string* release_policy_name();
+  ::std::string* release_reserve_content1();
+  ::std::string* release_reserve_content2();
+  ::std::string* release_session_id();
+  ::std::string* release_traffic_id();
+  ::std::string* release_trigger_time();
+  // string comment = 220;
+// string comment = 220;
+  // string csp_product_name = 80;
+// string csp_product_name = 80;
+  // string event_name = 100;
+// string event_name = 100;
+  // string frequency_name = 183;
+// string frequency_name = 183;
+  // string matched_device_name = 140;
+// string matched_device_name = 140;
+  // string matched_map_name = 160;
+// string matched_map_name = 160;
+  // string matched_net_name = 180;
+// string matched_net_name = 180;
+  // string policy = 190;
+// string policy = 190;
+  // string policy_name = 20;
+// string policy_name = 20;
+  // string reserve_content1 = 240;
+// string reserve_content1 = 240;
+  // string reserve_content2 = 260;
+// string reserve_content2 = 260;
+  // string session_id = 110;
+// string session_id = 110;
+  // string traffic_id = 120;
+// string traffic_id = 120;
+  // string trigger_time = 200;
+// string trigger_time = 200;
+struct TableStruct {
+template <>
+template <> struct is_proto_enum< ::activity::RespDeviceActivity_NetWorkType> : ::google::protobuf::internal::true_type {};
+    *this = ::std::move(from);
+  threshold_ = 0u;
+  threshold_ = value;
+  traffic_id_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  traffic_id_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), traffic_id);
+  traffic_id_.SetNoArena(
+  traffic_id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  traffic_id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  traffic_id_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  trigger_time_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+  trigger_time_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), trigger_time);
+  trigger_time_.SetNoArena(
+  trigger_time_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+  trigger_time_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  trigger_time_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  typedef RespDeviceActivity_NetWorkType NetWorkType;
+  // uint32 action_taken = 210;
+// uint32 action_taken = 210;
+  // uint32 delivery_type = 40;
+// uint32 delivery_type = 40;
+  // uint32 log_type = 30;
+// uint32 log_type = 30;
+  // uint32 period = 187;
+// uint32 period = 187;
+  // uint32 period_unit = 189;
+// uint32 period_unit = 189;
+  // uint32 severity = 50;
+// uint32 severity = 50;
+  // uint32 threshold = 185;
+// uint32 threshold = 185;
+  // uint64 activity_id = 1;
+// uint64 activity_id = 1;
+  // uint64 activity_id = 6;
+// uint64 activity_id = 6;
+  // uint64 csp_product_id = 70;
+// uint64 csp_product_id = 70;
+  // uint64 device_activity_id = 60;
+// uint64 device_activity_id = 60;
+  // uint64 device_id = 3;
+// uint64 device_id = 3;
+  // uint64 enterprise_id = 2;
+// uint64 enterprise_id = 2;
+  // uint64 enterprise_id = 52;
+// uint64 enterprise_id = 52;
+  // uint64 event_category_id = 91;
+// uint64 event_category_id = 91;
+  // uint64 event_id = 90;
+// uint64 event_id = 90;
+  // uint64 frequency_id = 182;
+// uint64 frequency_id = 182;
+  // uint64 matched_device_id = 130;
+// uint64 matched_device_id = 130;
+  // uint64 matched_map_id = 150;
+// uint64 matched_map_id = 150;
+  // uint64 matched_net_id = 170;
+// uint64 matched_net_id = 170;
+  // uint64 matched_policy_id = 10;
+// uint64 matched_policy_id = 10;
+  // uint64 reserve_id1 = 230;
+// uint64 reserve_id1 = 230;
+  // uint64 reserve_id2 = 250;
+// uint64 reserve_id2 = 250;
+  // uint64 user_id = 1;
+// uint64 user_id = 1;
+  // uint64 user_id = 55;
+// uint64 user_id = 55;
+  user_id_ = GOOGLE_ULONGLONG(0);
+  user_id_ = value;
+  virtual ~CloudPolicyLog();
+  virtual ~ReqDeviceActivity();
+  virtual ~RespDeviceActivity();
+void AddDescriptors();
+  void add_device_group_id(::google::protobuf::uint32 value);
+  void add_map_id(::google::protobuf::uint32 value);
+  void clear_action_taken();
+  void clear_activity_id();
+  void clear_comment();
+  void clear_csp_product_id();
+  void clear_csp_product_name();
+  void clear_delivery_type();
+  void clear_device_activity_id();
+  void clear_device_group_id();
+  void clear_device_id();
+  void clear_enterprise_id();
+  void clear_event_category_id();
+  void clear_event_id();
+  void clear_event_name();
+  void clear_frequency_id();
+  void clear_frequency_name();
+  void clear_log_type();
+  void clear_map_id();
+  void clear_matched_device_id();
+  void clear_matched_device_name();
+  void clear_matched_map_id();
+  void clear_matched_map_name();
+  void clear_matched_net_id();
+  void clear_matched_net_name();
+  void clear_matched_policy_id();
+  void clear_network_id();
+  void clear_period();
+  void clear_period_unit();
+  void clear_policy();
+  void clear_policy_name();
+  void Clear() PROTOBUF_FINAL;
+  void clear_reserve_content1();
+  void clear_reserve_content2();
+  void clear_reserve_id1();
+  void clear_reserve_id2();
+  void clear_session_id();
+  void clear_severity();
+  void clear_threshold();
+  void clear_traffic_id();
+  void clear_trigger_time();
+  void clear_user_id();
+  void CopyFrom(const CloudPolicyLog& from);
+  void CopyFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void CopyFrom(const ReqDeviceActivity& from);
+  void CopyFrom(const RespDeviceActivity& from);
+void InitDefaults();
+  void InternalSwap(CloudPolicyLog* other);
+  void InternalSwap(ReqDeviceActivity* other);
+  void InternalSwap(RespDeviceActivity* other);
+  void MergeFrom(const CloudPolicyLog& from);
+  void MergeFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void MergeFrom(const ReqDeviceActivity& from);
+  void MergeFrom(const RespDeviceActivity& from);
+  void SerializeWithCachedSizes(
+  void set_action_taken(::google::protobuf::uint32 value);
+  void set_activity_id(::google::protobuf::uint64 value);
+  void set_allocated_comment(::std::string* comment);
+  void set_allocated_csp_product_name(::std::string* csp_product_name);
+  void set_allocated_event_name(::std::string* event_name);
+  void set_allocated_frequency_name(::std::string* frequency_name);
+  void set_allocated_matched_device_name(::std::string* matched_device_name);
+  void set_allocated_matched_map_name(::std::string* matched_map_name);
+  void set_allocated_matched_net_name(::std::string* matched_net_name);
+  void set_allocated_policy_name(::std::string* policy_name);
+  void set_allocated_policy(::std::string* policy);
+  void set_allocated_reserve_content1(::std::string* reserve_content1);
+  void set_allocated_reserve_content2(::std::string* reserve_content2);
+  void set_allocated_session_id(::std::string* session_id);
+  void set_allocated_traffic_id(::std::string* traffic_id);
+  void set_allocated_trigger_time(::std::string* trigger_time);
+  void SetCachedSize(int size) const PROTOBUF_FINAL;
+  void set_comment(const char* value);
+  void set_comment(const char* value, size_t size);
+  void set_comment(const ::std::string& value);
+  void set_comment(::std::string&& value);
+  void set_csp_product_id(::google::protobuf::uint64 value);
+  void set_csp_product_name(const char* value);
+  void set_csp_product_name(const char* value, size_t size);
+  void set_csp_product_name(const ::std::string& value);
+  void set_csp_product_name(::std::string&& value);
+  void set_delivery_type(::google::protobuf::uint32 value);
+  void set_device_activity_id(::google::protobuf::uint64 value);
+  void set_device_group_id(int index, ::google::protobuf::uint32 value);
+  void set_device_id(::google::protobuf::uint64 value);
+  void set_enterprise_id(::google::protobuf::uint64 value);
+  void set_event_category_id(::google::protobuf::uint64 value);
+  void set_event_id(::google::protobuf::uint64 value);
+  void set_event_name(const char* value);
+  void set_event_name(const char* value, size_t size);
+  void set_event_name(const ::std::string& value);
+  void set_event_name(::std::string&& value);
+  void set_frequency_id(::google::protobuf::uint64 value);
+  void set_frequency_name(const char* value);
+  void set_frequency_name(const char* value, size_t size);
+  void set_frequency_name(const ::std::string& value);
+  void set_frequency_name(::std::string&& value);
+  void set_log_type(::google::protobuf::uint32 value);
+  void set_map_id(int index, ::google::protobuf::uint32 value);
+  void set_matched_device_id(::google::protobuf::uint64 value);
+  void set_matched_device_name(const char* value);
+  void set_matched_device_name(const char* value, size_t size);
+  void set_matched_device_name(const ::std::string& value);
+  void set_matched_device_name(::std::string&& value);
+  void set_matched_map_id(::google::protobuf::uint64 value);
+  void set_matched_map_name(const char* value);
+  void set_matched_map_name(const char* value, size_t size);
+  void set_matched_map_name(const ::std::string& value);
+  void set_matched_map_name(::std::string&& value);
+  void set_matched_net_id(::google::protobuf::uint64 value);
+  void set_matched_net_name(const char* value);
+  void set_matched_net_name(const char* value, size_t size);
+  void set_matched_net_name(const ::std::string& value);
+  void set_matched_net_name(::std::string&& value);
+  void set_matched_policy_id(::google::protobuf::uint64 value);
+  void set_network_id(::activity::RespDeviceActivity_NetWorkType value);
+  void set_period(::google::protobuf::uint32 value);
+  void set_period_unit(::google::protobuf::uint32 value);
+  void set_policy(const char* value);
+  void set_policy(const char* value, size_t size);
+  void set_policy(const ::std::string& value);
+  void set_policy_name(const char* value);
+  void set_policy_name(const char* value, size_t size);
+  void set_policy_name(const ::std::string& value);
+  void set_policy_name(::std::string&& value);
+  void set_policy(::std::string&& value);
+  void set_reserve_content1(const char* value);
+  void set_reserve_content1(const char* value, size_t size);
+  void set_reserve_content1(const ::std::string& value);
+  void set_reserve_content1(::std::string&& value);
+  void set_reserve_content2(const char* value);
+  void set_reserve_content2(const char* value, size_t size);
+  void set_reserve_content2(const ::std::string& value);
+  void set_reserve_content2(::std::string&& value);
+  void set_reserve_id1(::google::protobuf::uint64 value);
+  void set_reserve_id2(::google::protobuf::uint64 value);
+  void set_session_id(const char* value);
+  void set_session_id(const char* value, size_t size);
+  void set_session_id(const ::std::string& value);
+  void set_session_id(::std::string&& value);
+  void set_severity(::google::protobuf::uint32 value);
+  void set_threshold(::google::protobuf::uint32 value);
+  void set_traffic_id(const char* value);
+  void set_traffic_id(const char* value, size_t size);
+  void set_traffic_id(const ::std::string& value);
+  void set_traffic_id(::std::string&& value);
+  void set_trigger_time(const char* value);
+  void set_trigger_time(const char* value, size_t size);
+  void set_trigger_time(const ::std::string& value);
+  void set_trigger_time(::std::string&& value);
+  void set_user_id(::google::protobuf::uint64 value);
+  void SharedCtor();
+  void SharedDtor();
+  void Swap(CloudPolicyLog* other);
+  void Swap(ReqDeviceActivity* other);
+  void Swap(RespDeviceActivity* other);

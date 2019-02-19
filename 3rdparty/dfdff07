@@ -1,0 +1,30 @@
+  ::std::string* mutable_traffic_id();
+  ::std::string* release_traffic_id();
+  void set_allocated_traffic_id(::std::string* traffic_id);
+
+  // string matched_device_name = 140;
+  void clear_matched_device_name();
+  static const int kMatchedDeviceNameFieldNumber = 140;
+  const ::std::string& matched_device_name() const;
+  void set_matched_device_name(const ::std::string& value);
+  #if LANG_CXX11
+  void set_matched_device_name(::std::string&& value);
+  #endif
+  void set_matched_device_name(const char* value);
+  void set_matched_device_name(const char* value, size_t size);
+  ::std::string* mutable_matched_device_name();
+  ::std::string* release_matched_device_name();
+  void set_allocated_matched_device_name(::std::string* matched_device_name);
+
+  // string matched_map_name = 160;
+  void clear_matched_map_name();
+  static const int kMatchedMapNameFieldNumber = 160;
+  const ::std::string& matched_map_name() const;
+  void set_matched_map_name(const ::std::string& value);
+  #if LANG_CXX11
+  void set_matched_map_name(::std::string&& value);
+  #endif
+  void set_matched_map_name(const char* value);
+  void set_matched_map_name(const char* value, size_t size);
+  ::std::string* mutable_matched_map_name();
+  ::std::string* release_matched_map_name();

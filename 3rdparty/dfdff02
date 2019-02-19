@@ -1,0 +1,30 @@
+
+// ===================================================================
+
+class CloudPolicyLog : public ::google::protobuf::Message /* @@protoc_insertion_point(class_definition:com.cloudscreen.log.CloudPolicyLog) */ {
+ public:
+  CloudPolicyLog();
+  virtual ~CloudPolicyLog();
+
+  CloudPolicyLog(const CloudPolicyLog& from);
+
+  inline CloudPolicyLog& operator=(const CloudPolicyLog& from) {
+    CopyFrom(from);
+    return *this;
+  }
+  #if LANG_CXX11
+  CloudPolicyLog(CloudPolicyLog&& from) noexcept
+    : CloudPolicyLog() {
+    *this = ::std::move(from);
+  }
+
+  inline CloudPolicyLog& operator=(CloudPolicyLog&& from) noexcept {
+    if (GetArenaNoVirtual() == from.GetArenaNoVirtual()) {
+      if (this != &from) InternalSwap(&from);
+    } else {
+      CopyFrom(from);
+    }
+    return *this;
+  }
+  #endif
+  static const ::google::protobuf::Descriptor* descriptor();

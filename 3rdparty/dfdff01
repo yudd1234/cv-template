@@ -1,0 +1,30 @@
+#include <google/protobuf/unknown_field_set.h>
+// @@protoc_insertion_point(includes)
+namespace com {
+namespace cloudscreen {
+namespace log {
+class CloudPolicyLog;
+class CloudPolicyLogDefaultTypeInternal;
+extern CloudPolicyLogDefaultTypeInternal _CloudPolicyLog_default_instance_;
+}  // namespace log
+}  // namespace cloudscreen
+}  // namespace com
+
+namespace com {
+namespace cloudscreen {
+namespace log {
+
+namespace protobuf_cloudPolicy_2eproto {
+// Internal implementation detail -- do not call these.
+struct TableStruct {
+  static const ::google::protobuf::internal::ParseTableField entries[];
+  static const ::google::protobuf::internal::AuxillaryParseTableField aux[];
+  static const ::google::protobuf::internal::ParseTable schema[];
+  static const ::google::protobuf::uint32 offsets[];
+  static const ::google::protobuf::internal::FieldMetadata field_metadata[];
+  static const ::google::protobuf::internal::SerializationTable serialization_table[];
+  static void InitDefaultsImpl();
+};
+void AddDescriptors();
+void InitDefaults();
+}  // namespace protobuf_cloudPolicy_2eproto

@@ -1,0 +1,30 @@
+inline void CloudPolicyLog::set_allocated_policy_name(::std::string* policy_name) {
+  if (policy_name != NULL) {
+    
+  } else {
+    
+  }
+  policy_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), policy_name);
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.policy_name)
+}
+
+// uint32 log_type = 30;
+inline void CloudPolicyLog::clear_log_type() {
+  log_type_ = 0u;
+}
+inline ::google::protobuf::uint32 CloudPolicyLog::log_type() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.log_type)
+  return log_type_;
+}
+inline void CloudPolicyLog::set_log_type(::google::protobuf::uint32 value) {
+  
+  log_type_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.log_type)
+}
+
+// uint32 delivery_type = 40;
+inline void CloudPolicyLog::clear_delivery_type() {
+  delivery_type_ = 0u;
+}
+inline ::google::protobuf::uint32 CloudPolicyLog::delivery_type() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.delivery_type)

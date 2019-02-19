@@ -1,0 +1,30 @@
+  policy_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& CloudPolicyLog::policy() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.policy)
+  return policy_.GetNoArena();
+}
+inline void CloudPolicyLog::set_policy(const ::std::string& value) {
+  
+  policy_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.policy)
+}
+#if LANG_CXX11
+inline void CloudPolicyLog::set_policy(::std::string&& value) {
+  
+  policy_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.policy)
+}
+#endif
+inline void CloudPolicyLog::set_policy(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  policy_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.policy)
+}
+inline void CloudPolicyLog::set_policy(const char* value, size_t size) {
+  
+  policy_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.policy)

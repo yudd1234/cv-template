@@ -1,0 +1,30 @@
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.event_category_id)
+  return event_category_id_;
+}
+inline void CloudPolicyLog::set_event_category_id(::google::protobuf::uint64 value) {
+  
+  event_category_id_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.event_category_id)
+}
+
+// string event_name = 100;
+inline void CloudPolicyLog::clear_event_name() {
+  event_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& CloudPolicyLog::event_name() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.event_name)
+  return event_name_.GetNoArena();
+}
+inline void CloudPolicyLog::set_event_name(const ::std::string& value) {
+  
+  event_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.event_name)
+}
+#if LANG_CXX11
+inline void CloudPolicyLog::set_event_name(::std::string&& value) {
+  
+  event_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.event_name)
+}
+#endif

@@ -1,0 +1,30 @@
+inline void CloudPolicyLog::set_matched_map_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  matched_map_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+}
+inline void CloudPolicyLog::set_matched_map_name(const char* value, size_t size) {
+  
+  matched_map_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+}
+inline ::std::string* CloudPolicyLog::mutable_matched_map_name() {
+  
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  return matched_map_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* CloudPolicyLog::release_matched_map_name() {
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  
+  return matched_map_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void CloudPolicyLog::set_allocated_matched_map_name(::std::string* matched_map_name) {
+  if (matched_map_name != NULL) {
+    
+  } else {
+    
+  }
+  matched_map_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), matched_map_name);
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.matched_map_name)

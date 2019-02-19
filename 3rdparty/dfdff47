@@ -1,0 +1,30 @@
+  
+  reserve_id1_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.reserve_id1)
+}
+
+// string reserve_content1 = 240;
+inline void CloudPolicyLog::clear_reserve_content1() {
+  reserve_content1_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& CloudPolicyLog::reserve_content1() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+  return reserve_content1_.GetNoArena();
+}
+inline void CloudPolicyLog::set_reserve_content1(const ::std::string& value) {
+  
+  reserve_content1_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+}
+#if LANG_CXX11
+inline void CloudPolicyLog::set_reserve_content1(::std::string&& value) {
+  
+  reserve_content1_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.reserve_content1)
+}
+#endif
+inline void CloudPolicyLog::set_reserve_content1(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  reserve_content1_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));

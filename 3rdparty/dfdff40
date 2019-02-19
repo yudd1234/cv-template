@@ -1,0 +1,30 @@
+// uint32 period = 187;
+inline void CloudPolicyLog::clear_period() {
+  period_ = 0u;
+}
+inline ::google::protobuf::uint32 CloudPolicyLog::period() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.period)
+  return period_;
+}
+inline void CloudPolicyLog::set_period(::google::protobuf::uint32 value) {
+  
+  period_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.period)
+}
+
+// uint32 period_unit = 189;
+inline void CloudPolicyLog::clear_period_unit() {
+  period_unit_ = 0u;
+}
+inline ::google::protobuf::uint32 CloudPolicyLog::period_unit() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.period_unit)
+  return period_unit_;
+}
+inline void CloudPolicyLog::set_period_unit(::google::protobuf::uint32 value) {
+  
+  period_unit_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.period_unit)
+}
+
+// string policy = 190;
+inline void CloudPolicyLog::clear_policy() {

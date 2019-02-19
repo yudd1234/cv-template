@@ -1,0 +1,30 @@
+  reserve_id2_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 CloudPolicyLog::reserve_id2() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.reserve_id2)
+  return reserve_id2_;
+}
+inline void CloudPolicyLog::set_reserve_id2(::google::protobuf::uint64 value) {
+  
+  reserve_id2_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.reserve_id2)
+}
+
+// string reserve_content2 = 260;
+inline void CloudPolicyLog::clear_reserve_content2() {
+  reserve_content2_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& CloudPolicyLog::reserve_content2() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+  return reserve_content2_.GetNoArena();
+}
+inline void CloudPolicyLog::set_reserve_content2(const ::std::string& value) {
+  
+  reserve_content2_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+}
+#if LANG_CXX11
+inline void CloudPolicyLog::set_reserve_content2(::std::string&& value) {
+  
+  reserve_content2_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));

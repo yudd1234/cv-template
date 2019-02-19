@@ -1,0 +1,30 @@
+  static const int kCommentFieldNumber = 220;
+  const ::std::string& comment() const;
+  void set_comment(const ::std::string& value);
+  #if LANG_CXX11
+  void set_comment(::std::string&& value);
+  #endif
+  void set_comment(const char* value);
+  void set_comment(const char* value, size_t size);
+  ::std::string* mutable_comment();
+  ::std::string* release_comment();
+  void set_allocated_comment(::std::string* comment);
+
+  // string reserve_content1 = 240;
+  void clear_reserve_content1();
+  static const int kReserveContent1FieldNumber = 240;
+  const ::std::string& reserve_content1() const;
+  void set_reserve_content1(const ::std::string& value);
+  #if LANG_CXX11
+  void set_reserve_content1(::std::string&& value);
+  #endif
+  void set_reserve_content1(const char* value);
+  void set_reserve_content1(const char* value, size_t size);
+  ::std::string* mutable_reserve_content1();
+  ::std::string* release_reserve_content1();
+  void set_allocated_reserve_content1(::std::string* reserve_content1);
+
+  // string reserve_content2 = 260;
+  void clear_reserve_content2();
+  static const int kReserveContent2FieldNumber = 260;
+  const ::std::string& reserve_content2() const;

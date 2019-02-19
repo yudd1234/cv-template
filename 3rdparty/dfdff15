@@ -1,0 +1,30 @@
+  static const int kReserveId1FieldNumber = 230;
+  ::google::protobuf::uint64 reserve_id1() const;
+  void set_reserve_id1(::google::protobuf::uint64 value);
+
+  // uint64 reserve_id2 = 250;
+  void clear_reserve_id2();
+  static const int kReserveId2FieldNumber = 250;
+  ::google::protobuf::uint64 reserve_id2() const;
+  void set_reserve_id2(::google::protobuf::uint64 value);
+
+  // @@protoc_insertion_point(class_scope:com.cloudscreen.log.CloudPolicyLog)
+ private:
+
+  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;
+  ::google::protobuf::internal::ArenaStringPtr policy_name_;
+  ::google::protobuf::internal::ArenaStringPtr csp_product_name_;
+  ::google::protobuf::internal::ArenaStringPtr event_name_;
+  ::google::protobuf::internal::ArenaStringPtr session_id_;
+  ::google::protobuf::internal::ArenaStringPtr traffic_id_;
+  ::google::protobuf::internal::ArenaStringPtr matched_device_name_;
+  ::google::protobuf::internal::ArenaStringPtr matched_map_name_;
+  ::google::protobuf::internal::ArenaStringPtr matched_net_name_;
+  ::google::protobuf::internal::ArenaStringPtr frequency_name_;
+  ::google::protobuf::internal::ArenaStringPtr policy_;
+  ::google::protobuf::internal::ArenaStringPtr trigger_time_;
+  ::google::protobuf::internal::ArenaStringPtr comment_;
+  ::google::protobuf::internal::ArenaStringPtr reserve_content1_;
+  ::google::protobuf::internal::ArenaStringPtr reserve_content2_;
+  ::google::protobuf::uint64 matched_policy_id_;
+  ::google::protobuf::uint32 log_type_;

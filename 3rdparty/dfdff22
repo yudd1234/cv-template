@@ -1,0 +1,30 @@
+  device_activity_id_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.device_activity_id)
+}
+
+// uint64 csp_product_id = 70;
+inline void CloudPolicyLog::clear_csp_product_id() {
+  csp_product_id_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 CloudPolicyLog::csp_product_id() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.csp_product_id)
+  return csp_product_id_;
+}
+inline void CloudPolicyLog::set_csp_product_id(::google::protobuf::uint64 value) {
+  
+  csp_product_id_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.csp_product_id)
+}
+
+// string csp_product_name = 80;
+inline void CloudPolicyLog::clear_csp_product_name() {
+  csp_product_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& CloudPolicyLog::csp_product_name() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+  return csp_product_name_.GetNoArena();
+}
+inline void CloudPolicyLog::set_csp_product_name(const ::std::string& value) {
+  
+  csp_product_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.csp_product_name)

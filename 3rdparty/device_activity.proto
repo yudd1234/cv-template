@@ -1,0 +1,23 @@
+syntax = "proto3";
+package activity;
+
+message ReqDeviceActivity
+{
+       uint64  activity_id = 1;
+}
+ 
+message RespDeviceActivity
+{
+       enum NetWorkType {
+              NET_NO = 0;
+              NET_WIFI = 1;
+              NET_CELLULAR = 2;
+       }
+       uint64  user_id = 1;
+       uint64  enterprise_id = 2;
+       uint64  device_id = 3;
+       repeated uint32  map_id = 4;
+       NetWorkType network_id = 5;
+       uint64  activity_id = 6;
+       repeated uint32  device_group_id = 7;
+}

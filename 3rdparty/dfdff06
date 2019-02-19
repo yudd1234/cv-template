@@ -1,0 +1,30 @@
+  void set_event_name(const char* value);
+  void set_event_name(const char* value, size_t size);
+  ::std::string* mutable_event_name();
+  ::std::string* release_event_name();
+  void set_allocated_event_name(::std::string* event_name);
+
+  // string session_id = 110;
+  void clear_session_id();
+  static const int kSessionIdFieldNumber = 110;
+  const ::std::string& session_id() const;
+  void set_session_id(const ::std::string& value);
+  #if LANG_CXX11
+  void set_session_id(::std::string&& value);
+  #endif
+  void set_session_id(const char* value);
+  void set_session_id(const char* value, size_t size);
+  ::std::string* mutable_session_id();
+  ::std::string* release_session_id();
+  void set_allocated_session_id(::std::string* session_id);
+
+  // string traffic_id = 120;
+  void clear_traffic_id();
+  static const int kTrafficIdFieldNumber = 120;
+  const ::std::string& traffic_id() const;
+  void set_traffic_id(const ::std::string& value);
+  #if LANG_CXX11
+  void set_traffic_id(::std::string&& value);
+  #endif
+  void set_traffic_id(const char* value);
+  void set_traffic_id(const char* value, size_t size);

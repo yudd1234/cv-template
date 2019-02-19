@@ -1,0 +1,30 @@
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_map_id)
+  return matched_map_id_;
+}
+inline void CloudPolicyLog::set_matched_map_id(::google::protobuf::uint64 value) {
+  
+  matched_map_id_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_map_id)
+}
+
+// string matched_map_name = 160;
+inline void CloudPolicyLog::clear_matched_map_name() {
+  matched_map_name_.ClearToEmptyNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline const ::std::string& CloudPolicyLog::matched_map_name() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+  return matched_map_name_.GetNoArena();
+}
+inline void CloudPolicyLog::set_matched_map_name(const ::std::string& value) {
+  
+  matched_map_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+}
+#if LANG_CXX11
+inline void CloudPolicyLog::set_matched_map_name(::std::string&& value) {
+  
+  matched_map_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.matched_map_name)
+}
+#endif

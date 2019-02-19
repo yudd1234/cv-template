@@ -1,0 +1,30 @@
+  static const int kEventIdFieldNumber = 90;
+  ::google::protobuf::uint64 event_id() const;
+  void set_event_id(::google::protobuf::uint64 value);
+
+  // uint64 event_category_id = 91;
+  void clear_event_category_id();
+  static const int kEventCategoryIdFieldNumber = 91;
+  ::google::protobuf::uint64 event_category_id() const;
+  void set_event_category_id(::google::protobuf::uint64 value);
+
+  // uint32 severity = 50;
+  void clear_severity();
+  static const int kSeverityFieldNumber = 50;
+  ::google::protobuf::uint32 severity() const;
+  void set_severity(::google::protobuf::uint32 value);
+
+  // uint32 threshold = 185;
+  void clear_threshold();
+  static const int kThresholdFieldNumber = 185;
+  ::google::protobuf::uint32 threshold() const;
+  void set_threshold(::google::protobuf::uint32 value);
+
+  // uint64 matched_device_id = 130;
+  void clear_matched_device_id();
+  static const int kMatchedDeviceIdFieldNumber = 130;
+  ::google::protobuf::uint64 matched_device_id() const;
+  void set_matched_device_id(::google::protobuf::uint64 value);
+
+  // uint64 matched_map_id = 150;
+  void clear_matched_map_id();

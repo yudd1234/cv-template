@@ -1,0 +1,30 @@
+}
+inline void CloudPolicyLog::set_allocated_csp_product_name(::std::string* csp_product_name) {
+  if (csp_product_name != NULL) {
+    
+  } else {
+    
+  }
+  csp_product_name_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), csp_product_name);
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.csp_product_name)
+}
+
+// uint64 event_id = 90;
+inline void CloudPolicyLog::clear_event_id() {
+  event_id_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 CloudPolicyLog::event_id() const {
+  // @@protoc_insertion_point(field_get:com.cloudscreen.log.CloudPolicyLog.event_id)
+  return event_id_;
+}
+inline void CloudPolicyLog::set_event_id(::google::protobuf::uint64 value) {
+  
+  event_id_ = value;
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.event_id)
+}
+
+// uint64 event_category_id = 91;
+inline void CloudPolicyLog::clear_event_category_id() {
+  event_category_id_ = GOOGLE_ULONGLONG(0);
+}
+inline ::google::protobuf::uint64 CloudPolicyLog::event_category_id() const {

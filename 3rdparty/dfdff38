@@ -1,0 +1,30 @@
+}
+inline void CloudPolicyLog::set_frequency_name(const ::std::string& value) {
+  
+  frequency_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), value);
+  // @@protoc_insertion_point(field_set:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+}
+#if LANG_CXX11
+inline void CloudPolicyLog::set_frequency_name(::std::string&& value) {
+  
+  frequency_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+}
+#endif
+inline void CloudPolicyLog::set_frequency_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  frequency_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+}
+inline void CloudPolicyLog::set_frequency_name(const char* value, size_t size) {
+  
+  frequency_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+}
+inline ::std::string* CloudPolicyLog::mutable_frequency_name() {
+  
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.frequency_name)
+  return frequency_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());

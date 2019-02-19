@@ -1,0 +1,30 @@
+  // string policy = 190;
+  void clear_policy();
+  static const int kPolicyFieldNumber = 190;
+  const ::std::string& policy() const;
+  void set_policy(const ::std::string& value);
+  #if LANG_CXX11
+  void set_policy(::std::string&& value);
+  #endif
+  void set_policy(const char* value);
+  void set_policy(const char* value, size_t size);
+  ::std::string* mutable_policy();
+  ::std::string* release_policy();
+  void set_allocated_policy(::std::string* policy);
+
+  // string trigger_time = 200;
+  void clear_trigger_time();
+  static const int kTriggerTimeFieldNumber = 200;
+  const ::std::string& trigger_time() const;
+  void set_trigger_time(const ::std::string& value);
+  #if LANG_CXX11
+  void set_trigger_time(::std::string&& value);
+  #endif
+  void set_trigger_time(const char* value);
+  void set_trigger_time(const char* value, size_t size);
+  ::std::string* mutable_trigger_time();
+  ::std::string* release_trigger_time();
+  void set_allocated_trigger_time(::std::string* trigger_time);
+
+  // string comment = 220;
+  void clear_comment();

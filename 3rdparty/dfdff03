@@ -1,0 +1,30 @@
+  static const CloudPolicyLog& default_instance();
+
+  static inline const CloudPolicyLog* internal_default_instance() {
+    return reinterpret_cast<const CloudPolicyLog*>(
+               &_CloudPolicyLog_default_instance_);
+  }
+  static PROTOBUF_CONSTEXPR int const kIndexInFileMessages =
+    0;
+
+  void Swap(CloudPolicyLog* other);
+  friend void swap(CloudPolicyLog& a, CloudPolicyLog& b) {
+    a.Swap(&b);
+  }
+
+  // implements Message ----------------------------------------------
+
+  inline CloudPolicyLog* New() const PROTOBUF_FINAL { return New(NULL); }
+
+  CloudPolicyLog* New(::google::protobuf::Arena* arena) const PROTOBUF_FINAL;
+  void CopyFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void MergeFrom(const ::google::protobuf::Message& from) PROTOBUF_FINAL;
+  void CopyFrom(const CloudPolicyLog& from);
+  void MergeFrom(const CloudPolicyLog& from);
+  void Clear() PROTOBUF_FINAL;
+  bool IsInitialized() const PROTOBUF_FINAL;
+
+  size_t ByteSizeLong() const PROTOBUF_FINAL;
+  bool MergePartialFromCodedStream(
+      ::google::protobuf::io::CodedInputStream* input) PROTOBUF_FINAL;
+  void SerializeWithCachedSizes(

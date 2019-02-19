@@ -1,0 +1,30 @@
+inline void CloudPolicyLog::set_matched_net_name(::std::string&& value) {
+  
+  matched_net_name_.SetNoArena(
+    &::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::move(value));
+  // @@protoc_insertion_point(field_set_rvalue:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+}
+#endif
+inline void CloudPolicyLog::set_matched_net_name(const char* value) {
+  GOOGLE_DCHECK(value != NULL);
+  
+  matched_net_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), ::std::string(value));
+  // @@protoc_insertion_point(field_set_char:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+}
+inline void CloudPolicyLog::set_matched_net_name(const char* value, size_t size) {
+  
+  matched_net_name_.SetNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(),
+      ::std::string(reinterpret_cast<const char*>(value), size));
+  // @@protoc_insertion_point(field_set_pointer:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+}
+inline ::std::string* CloudPolicyLog::mutable_matched_net_name() {
+  
+  // @@protoc_insertion_point(field_mutable:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  return matched_net_name_.MutableNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline ::std::string* CloudPolicyLog::release_matched_net_name() {
+  // @@protoc_insertion_point(field_release:com.cloudscreen.log.CloudPolicyLog.matched_net_name)
+  
+  return matched_net_name_.ReleaseNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited());
+}
+inline void CloudPolicyLog::set_allocated_matched_net_name(::std::string* matched_net_name) {

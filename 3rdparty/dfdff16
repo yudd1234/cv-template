@@ -1,0 +1,30 @@
+  ::google::protobuf::uint32 delivery_type_;
+  ::google::protobuf::uint32 action_taken_;
+  ::google::protobuf::uint64 enterprise_id_;
+  ::google::protobuf::uint64 user_id_;
+  ::google::protobuf::uint64 device_activity_id_;
+  ::google::protobuf::uint64 csp_product_id_;
+  ::google::protobuf::uint64 event_id_;
+  ::google::protobuf::uint64 event_category_id_;
+  ::google::protobuf::uint32 severity_;
+  ::google::protobuf::uint32 threshold_;
+  ::google::protobuf::uint64 matched_device_id_;
+  ::google::protobuf::uint64 matched_map_id_;
+  ::google::protobuf::uint64 matched_net_id_;
+  ::google::protobuf::uint64 frequency_id_;
+  ::google::protobuf::uint32 period_;
+  ::google::protobuf::uint32 period_unit_;
+  ::google::protobuf::uint64 reserve_id1_;
+  ::google::protobuf::uint64 reserve_id2_;
+  mutable int _cached_size_;
+  friend struct protobuf_cloudPolicy_2eproto::TableStruct;
+};
+// ===================================================================
+
+
+// ===================================================================
+
+#if !PROTOBUF_INLINE_NOT_IN_HEADERS
+#ifdef __GNUC__
+  #pragma GCC diagnostic push
+  #pragma GCC diagnostic ignored "-Wstrict-aliasing"

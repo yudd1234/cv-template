@@ -1,0 +1,20 @@
+  }
+  reserve_content2_.SetAllocatedNoArena(&::google::protobuf::internal::GetEmptyStringAlreadyInited(), reserve_content2);
+  // @@protoc_insertion_point(field_set_allocated:com.cloudscreen.log.CloudPolicyLog.reserve_content2)
+}
+
+#ifdef __GNUC__
+  #pragma GCC diagnostic pop
+#endif  // __GNUC__
+#endif  // !PROTOBUF_INLINE_NOT_IN_HEADERS
+
+// @@protoc_insertion_point(namespace_scope)
+
+
+}  // namespace log
+}  // namespace cloudscreen
+}  // namespace com
+
+// @@protoc_insertion_point(global_scope)
+
+#endif  // PROTOBUF_cloudPolicy_2eproto__INCLUDED

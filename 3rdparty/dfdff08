@@ -1,0 +1,30 @@
+  void set_allocated_matched_map_name(::std::string* matched_map_name);
+
+  // string matched_net_name = 180;
+  void clear_matched_net_name();
+  static const int kMatchedNetNameFieldNumber = 180;
+  const ::std::string& matched_net_name() const;
+  void set_matched_net_name(const ::std::string& value);
+  #if LANG_CXX11
+  void set_matched_net_name(::std::string&& value);
+  #endif
+  void set_matched_net_name(const char* value);
+  void set_matched_net_name(const char* value, size_t size);
+  ::std::string* mutable_matched_net_name();
+  ::std::string* release_matched_net_name();
+  void set_allocated_matched_net_name(::std::string* matched_net_name);
+
+  // string frequency_name = 183;
+  void clear_frequency_name();
+  static const int kFrequencyNameFieldNumber = 183;
+  const ::std::string& frequency_name() const;
+  void set_frequency_name(const ::std::string& value);
+  #if LANG_CXX11
+  void set_frequency_name(::std::string&& value);
+  #endif
+  void set_frequency_name(const char* value);
+  void set_frequency_name(const char* value, size_t size);
+  ::std::string* mutable_frequency_name();
+  ::std::string* release_frequency_name();
+  void set_allocated_frequency_name(::std::string* frequency_name);
+

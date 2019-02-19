@@ -1,0 +1,30 @@
+  void set_reserve_content2(const ::std::string& value);
+  #if LANG_CXX11
+  void set_reserve_content2(::std::string&& value);
+  #endif
+  void set_reserve_content2(const char* value);
+  void set_reserve_content2(const char* value, size_t size);
+  ::std::string* mutable_reserve_content2();
+  ::std::string* release_reserve_content2();
+  void set_allocated_reserve_content2(::std::string* reserve_content2);
+
+  // uint64 matched_policy_id = 10;
+  void clear_matched_policy_id();
+  static const int kMatchedPolicyIdFieldNumber = 10;
+  ::google::protobuf::uint64 matched_policy_id() const;
+  void set_matched_policy_id(::google::protobuf::uint64 value);
+
+  // uint32 log_type = 30;
+  void clear_log_type();
+  static const int kLogTypeFieldNumber = 30;
+  ::google::protobuf::uint32 log_type() const;
+  void set_log_type(::google::protobuf::uint32 value);
+
+  // uint32 delivery_type = 40;
+  void clear_delivery_type();
+  static const int kDeliveryTypeFieldNumber = 40;
+  ::google::protobuf::uint32 delivery_type() const;
+  void set_delivery_type(::google::protobuf::uint32 value);
+
+  // uint32 action_taken = 210;
+  void clear_action_taken();

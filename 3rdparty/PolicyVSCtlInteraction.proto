@@ -1,0 +1,36 @@
+syntax = "proto3";
+package policyvsctlinteraction; 
+
+message CtlRequstPolicy
+{ 
+	uint32 	msg_id = 10;
+	uint64  activity_id = 20;
+	uint64  product_id = 30;
+	uint64  enc_product_id = 31;
+	uint64  event_id = 40;
+	string  session_id = 50;
+	string  traffic_id = 60;
+	string  block_tip = 70;	
+}
+
+
+message PolicyResponseCtl
+{ 
+	uint32 	msg_id = 1;
+	uint64  activity_id = 2;		
+	uint32	action_taken =3 ;		//阻断和非阻断
+	string  session_id = 4;
+	string  traffic_id = 5;
+
+	//encrypt模块
+	string 	enc_enterprise_pwd = 6;	//企业设置的密码
+	string	enc_enterprise_cipherkey = 7;	//企业密码加密后的密文
+	string	enc_enterprice_test = 8;		//测试用的企业明文密码
+	uint32	block_result = 9;		//control 判断  =1 加密  =2 不加密  
+
+	//logserver
+	uint64  product_id = 10;
+    uint64  enterprise_id = 11;
+	uint64  user_id = 12;
+	string  csp_product_name = 13; 
+}

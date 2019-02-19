@@ -1,0 +1,30 @@
+  static const int kActionTakenFieldNumber = 210;
+  ::google::protobuf::uint32 action_taken() const;
+  void set_action_taken(::google::protobuf::uint32 value);
+
+  // uint64 enterprise_id = 52;
+  void clear_enterprise_id();
+  static const int kEnterpriseIdFieldNumber = 52;
+  ::google::protobuf::uint64 enterprise_id() const;
+  void set_enterprise_id(::google::protobuf::uint64 value);
+
+  // uint64 user_id = 55;
+  void clear_user_id();
+  static const int kUserIdFieldNumber = 55;
+  ::google::protobuf::uint64 user_id() const;
+  void set_user_id(::google::protobuf::uint64 value);
+
+  // uint64 device_activity_id = 60;
+  void clear_device_activity_id();
+  static const int kDeviceActivityIdFieldNumber = 60;
+  ::google::protobuf::uint64 device_activity_id() const;
+  void set_device_activity_id(::google::protobuf::uint64 value);
+
+  // uint64 csp_product_id = 70;
+  void clear_csp_product_id();
+  static const int kCspProductIdFieldNumber = 70;
+  ::google::protobuf::uint64 csp_product_id() const;
+  void set_csp_product_id(::google::protobuf::uint64 value);
+
+  // uint64 event_id = 90;
+  void clear_event_id();

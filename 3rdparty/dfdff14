@@ -1,0 +1,30 @@
+  static const int kMatchedMapIdFieldNumber = 150;
+  ::google::protobuf::uint64 matched_map_id() const;
+  void set_matched_map_id(::google::protobuf::uint64 value);
+
+  // uint64 matched_net_id = 170;
+  void clear_matched_net_id();
+  static const int kMatchedNetIdFieldNumber = 170;
+  ::google::protobuf::uint64 matched_net_id() const;
+  void set_matched_net_id(::google::protobuf::uint64 value);
+
+  // uint64 frequency_id = 182;
+  void clear_frequency_id();
+  static const int kFrequencyIdFieldNumber = 182;
+  ::google::protobuf::uint64 frequency_id() const;
+  void set_frequency_id(::google::protobuf::uint64 value);
+
+  // uint32 period = 187;
+  void clear_period();
+  static const int kPeriodFieldNumber = 187;
+  ::google::protobuf::uint32 period() const;
+  void set_period(::google::protobuf::uint32 value);
+
+  // uint32 period_unit = 189;
+  void clear_period_unit();
+  static const int kPeriodUnitFieldNumber = 189;
+  ::google::protobuf::uint32 period_unit() const;
+  void set_period_unit(::google::protobuf::uint32 value);
+
+  // uint64 reserve_id1 = 230;
+  void clear_reserve_id1();
